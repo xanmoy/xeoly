@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { TbGridDots } from "react-icons/tb";
 import React, { useState } from 'react';
+import { FlaskConical } from 'lucide-react';
 
 export default function HomeHeader() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,10 +13,10 @@ export default function HomeHeader() {
   return (
     <header className="flex justify-end p-5 text-sm">
       <div className="flex space-x-4 items-center">
-        <p className="text-sm">developed by <Link href="https://twitter.com/xanmoy" className="text-blue-600">
-          Team Xanmoy
+       <Link href="https://labs.xanmoy.me" className="text-zinc-300">
+          <FlaskConical/>
         </Link>
-        </p>
+      
         {/* <Link href="https://mail.google.com" className="hover:underline">
           Gmail
         </Link>

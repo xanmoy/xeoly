@@ -8,9 +8,9 @@ export default function Footer() {
       </div>
       <div className="flex flex-col sm:flex-row justify-between items-center px-8 py-3 space-y-7 sm:space-y-0">
         <ul className="flex items-center space-x-6">
-          <li className="link">About</li>
-          <li className="link">Advertising</li>
-          <li className="link">Business</li>
+          <li className="https://x.com/xanmoy">Twitter</li>
+          <li className="https://linkedin.com/in/xanmoy">LinkedIn</li>
+          <li className="https://github.com/xanmoy">Github</li>
          
         </ul>
 
