@@ -23,7 +23,7 @@ export default function SearchHeaderOptions() {
         <p>Images</p>
       </div>
       <div className={`flex items-center space-x-1 border-b-4 border-transparent active:text-blue-500 cursor-pointer pb-3 px-2 ${pathname === "/search/image" && "!text-blue-600 !border-blue-600"}`}>
-        <Link href="https://aurora.xanmoy.me/chat" replace>
+        <Link href="https://findit.xanmoy.me" replace>
         <span className=" font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-600">Aurora AI</span>
 
         </Link>
