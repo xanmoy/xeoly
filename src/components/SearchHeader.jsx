@@ -7,7 +7,7 @@ import SearchHeaderOptions from "./SearchHeaderOptions";
 
 export default function SearchHeader() {
   return (
-    <header className=" top-0">
+    <header className="bg-zinc-900 top-0">
       <div className="container flex flex-wrap w-full p-4 items-center justify-between">
         <div className="item text-center lg:text-center lg:w-1 py-3 flex-grow">
           <Link href={"/"}>
