@@ -40,7 +40,7 @@ export default function HomeSearch() {
        
       </form>
 
-      <Link href="https://findit.xanmoy.me" replace>
+      <Link href="https://copilot.xanmoy.me" replace>
         <div className="flex items-center space-x-1 m-1 pt-4">
           <Image
             width="50"
