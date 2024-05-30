@@ -24,7 +24,7 @@ export default function SearchHeaderOptions() {
       </div>
       
       <div className={`flex items-center space-x-1 border-b-4 border-transparent active:text-indigo-500 cursor-pointer pb-3 ${pathname === "/search/ai" && "!text-indigo-600 !border-indigo-600"}`}>
-        <Link href="https://findit.xanmoy.me" replace>
+        <Link href="https://copilot.xanmoy.me" replace>
           <div className="flex items-center space-x-1">
             <Image
               width="20"
