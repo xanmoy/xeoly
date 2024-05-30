@@ -28,7 +28,7 @@ export default function PaginationButtons() {
         >
           <div className="flex flex-col cursor-pointer items-center hover:underline">
             <BsChevronRight className="h-5" />
-            <p>Next</p>
+            <span>More Results</span>
           </div>
         </Link>
       )}

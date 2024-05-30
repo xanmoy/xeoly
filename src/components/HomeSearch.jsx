@@ -1,5 +1,6 @@
 "use client";
-
+import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { AiOutlineSearch } from "react-icons/ai";
@@ -23,7 +24,7 @@ export default function HomeSearch() {
     setRandomSearchLoading(false);
   }
   return (
-    <>
+    <div className="flex items-center space-x-2 mx-2">
       <form
         onSubmit={handleSubmit}
         className="flex w-full mt-5 mx-auto max-w-[90%] bg-zinc-800 px-5 py-3 rounded-full hover:shadow-md focus-within:shadow-md transition-shadow sm:max-w-xl lg:max-w-2xl"
@@ -31,14 +32,26 @@ export default function HomeSearch() {
         <AiOutlineSearch className="text-xl bg-zinc-800 mr-3" />
         <input
           type="text"
-          className="flex-grow bg-zinc-800 focus:outline-none"
+          className="flex-grow bg-zinc-800 focus:outline-none lg:pr-80"
           onChange={(e) => setInput(e.target.value)}
           value={input}
+          placeholder="Search the web"
         />
        
       </form>
 
+      <Link href="https://findit.xanmoy.me" replace>
+        <div className="flex items-center space-x-1 m-1 pt-4">
+          <Image
+            width="50"
+            height="50"
+            src="/copilot.svg"
+            alt="AI Logo"
+          />
+          
+        </div>
+      </Link>
     
-    </>
+    </div>
   );
 }
