@@ -7,12 +7,12 @@ export default function Footer() {
         <CountryLookup />
       </div>
       <div className="flex flex-col sm:flex-row justify-between items-center px-8 py-3 space-y-7 sm:space-y-0">
-        <ul className="flex items-center space-x-6">
-          <li className="https://x.com/xanmoy">Twitter</li>
-          <li className="https://linkedin.com/in/xanmoy">LinkedIn</li>
-          <li className="https://github.com/xanmoy">Github</li>
+        <div className="flex items-center space-x-6">
+          <a href="https://x.com/xanmoy">Twitter</a>
+          <a href="https://linkedin.com/in/xanmoy">LinkedIn</a>
+          <a href="https://github.com/xanmoy">Github</a>
          
-        </ul>
+        </div>
 
         <p className="text-gray-400 text-xs text-center p-3">
           Developed by <a className="text-blue-600" href="https://github.com/xanmoy">Xanmoy</a>

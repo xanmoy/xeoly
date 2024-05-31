@@ -17,8 +17,11 @@ export default function PaginationButtons() {
           href={`${pathname}?searchTerm=${searchTerm}&start=${startIndex - 10}`}
         >
           <div className="flex flex-col cursor-pointer items-center hover:underline">
-            <BsChevronLeft className="h-5" />
-            <p>Previous</p>
+            {/* <BsChevronLeft className="h-5" />
+            <p>Previous</p> */}
+            <button class="bg-indigo-300 hover:bg-indigo-400 text-indigo-800 font-bold py-2 px-4 rounded-l">
+              Prev
+            </button>
           </div>
         </Link>
       )}
@@ -27,8 +30,11 @@ export default function PaginationButtons() {
           href={`${pathname}?searchTerm=${searchTerm}&start=${startIndex + 10}`}
         >
           <div className="flex flex-col cursor-pointer items-center hover:underline">
-            <BsChevronRight className="h-5" />
-            <span>More Results</span>
+            {/* <BsChevronRight className="h-5" /> */}
+            {/* <span>More Results</span> */}
+            <button class="bg-indigo-300 hover:bg-indigo-400 text-indigo-800 font-bold py-2 px-4 rounded-r">
+              Next
+            </button>
           </div>
         </Link>
       )}

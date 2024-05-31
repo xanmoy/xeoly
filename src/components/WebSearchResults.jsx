@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Parser from "html-react-parser";
 import PaginationButtons from "./PaginationButtons";
-
+import Image from "next/image";
 export default function WebSearchResults({ results }) {
   return (
     <div className="w-full mx-auto px-3 pb-40 sm:pb-24 sm:pl-[5%] md:pl-[14%] lg:pl-52">
@@ -12,9 +12,21 @@ export default function WebSearchResults({ results }) {
       {results.items?.map((result) => (
         <div className="mb-8 max-w-xl" key={result.link}>
           <div className="group flex flex-col">
-            <Link className="text-sm truncate" href={result.link}>
+            <div className="flex items-center space-x-2">
+          
+              <img
+                src={result.pagemap?.cse_image?.[0]?.src || "/no-image.svg"}
+                alt={result.title}
+                height={15}
+                width={15}
+                className="group-hover:shadow-xl rounded-full"
+              />
+
+           
+              <Link className="text-sm truncate inline-block" href={result.link}>
               {result.formattedUrl}
-            </Link>
+              </Link>
+            </div>
             <Link
               className="group-hover:underline decoration-blue-800 text-xl truncate font-medium text-blue-800"
               href={result.link}

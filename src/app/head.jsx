@@ -1,7 +1,7 @@
 export default function Head() {
   return (
     <>
-      <title>Xeoly | Secure Search Engine</title>
+      <title>Xeoly | Secure AI Powered Search Engine</title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <meta name="description" content="Xeoly Secure Search Engine" />
       <link rel="icon" href="/favicon.svg" />

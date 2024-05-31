@@ -24,7 +24,7 @@ export default function HomeSearch() {
     setRandomSearchLoading(false);
   }
   return (
-    <div className="flex items-center space-x-2 mx-2">
+    <div className="flex items-center pl-2 space-x-2 ">
       <form
         onSubmit={handleSubmit}
         className="flex w-full mt-5 mx-auto max-w-[90%] bg-zinc-800 px-5 py-3 rounded-full hover:shadow-md focus-within:shadow-md transition-shadow sm:max-w-xl lg:max-w-2xl"
@@ -41,13 +41,17 @@ export default function HomeSearch() {
       </form>
 
       <Link href="https://copilot.xanmoy.me" replace>
-        <div className="flex items-center space-x-1 m-1 pt-4">
-          <Image
-            width="50"
-            height="50"
-            src="/copilot.svg"
-            alt="AI Logo"
-          />
+        <div className="flex items-center space-x-1 m-1 mt-6 rounded-full bg-zinc-800">
+          <div className="rounded-full bg-zinc-800 p-2 h-18 w-18">
+            <Image
+              width="50"
+              height="50"
+              src="/copilot.svg"
+              alt="AI Logo"
+
+            />
+          </div>
+          
           
         </div>
       </Link>
