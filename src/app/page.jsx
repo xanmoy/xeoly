@@ -24,7 +24,7 @@ export default function Home() {
             <p className="text-gray-400 mb-6">
               Enhance your productivity with the new Xeloy Copilot. Get assistance in your daily tasks effortlessly.
             </p>
-            <a href="https://copilot.xanmoy.me" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2.5 px-4 rounded-full transition duration-300 ease-in-out transform hover:scale-105">
+            <a href="https://copilot.xanmoy.me" className="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2.5 px-4 rounded-full transition duration-300 ease-in-out transform hover:scale-105">
               Ask Copilot
             </a>
           </div>
