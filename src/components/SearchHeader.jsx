@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function SearchHeader() {
   return (
-    <header className="w-full lg:bg-gradient-to-b from-indigo-800 to-zinc-900">
+    <header className="w-full lg:bg-gradient-to-b from-indigo-600 to-zinc-900">
       <div className="container flex flex-wrap w-full items-center justify-between">
         <div className="flex-grow lg:flex-grow-0 w-max text-center lg:text-left">
           {/* Conditional rendering of the gradient background */}
