@@ -13,7 +13,7 @@ export default function HomeHeader() {
   return (
     <header className="flex justify-end p-5 text-sm">
       <div className="flex space-x-4 items-center">
-       <Link href="https://labs.xanmoy.me" className="text-zinc-300">
+       <Link href="https://labs.xanmoy.me" className="text-indigo-500">
           <FlaskConical/>
         </Link>
       

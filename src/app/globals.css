@@ -15,3 +15,16 @@
     @apply bg-transparent hover:bg-gray-200 p-2 text-4xl rounded-full cursor-pointer
   }
 }
+
+@layer utilities {
+  .btn-primary {
+    @apply bg-blue-500 text-white;
+  }
+
+  .btn-secondary {
+    @apply bg-gray-500 text-white;
+  }
+}
+hr{
+  border-top: 1px solid #e9ecef;
+}

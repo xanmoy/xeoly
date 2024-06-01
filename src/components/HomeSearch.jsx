@@ -31,7 +31,7 @@ export default function HomeSearch() {
     <div className="flex items-center pl-2 space-x-2">
       <form
         onSubmit={handleSubmit}
-        className="flex w-full mt-5 mx-auto max-w-[90%] bg-zinc-800 pl-5 py- rounded-full hover:shadow-md focus-within:shadow-md transition-shadow sm:max-w-xl lg:max-w-2xl"
+        className="flex w-full mt-5 mx-auto max-w-[90%] bg-zinc-800 pl-5 py-1 rounded-full hover:shadow-md focus-within:shadow-md transition-shadow sm:max-w-xl lg:max-w-2xl"
       >
 
         <input

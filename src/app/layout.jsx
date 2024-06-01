@@ -1,4 +1,4 @@
-import Footer from "@/components/Footer";
+
 import "./globals.css";
 
 export default function RootLayout({ children }) {
@@ -8,11 +8,11 @@ export default function RootLayout({ children }) {
         <head /> will contain the components returned by the nearest parent
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
-      <body className="relative min-h-screen bg-zinc-900 text-zinc-400">
+      <body className="relative h-full min-h-screen bg-zinc-900 text-zinc-400">
         {children}
         {/* Footer */}
 
-        <Footer />
+        
       </body>
     </html>
   );

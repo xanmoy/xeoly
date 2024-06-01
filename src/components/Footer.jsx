@@ -1,25 +1,39 @@
 import CountryLookup from "./CountryLookup";
-
+import Image from "next/image";
 export default function Footer() {
   return (
-    <footer className="absolute bottom-0 text-sm text-gray-500 bg-zinc-900 w-full">
-      <div className="border-b border-zinc-600 px-8 py-3">
-        <CountryLookup />
-      </div>
-      <div className="flex flex-col sm:flex-row justify-between items-center px-8 py-3 space-y-7 sm:space-y-0">
-        <div className="flex items-center space-x-6">
-          <a href="https://x.com/xanmoy">Twitter</a>
-          <a href="https://linkedin.com/in/xanmoy">LinkedIn</a>
-          <a href="https://github.com/xanmoy">Github</a>
-         
-        </div>
 
-        <p className="text-gray-400 text-xs text-center p-3">
-          Developed by <a className="text-blue-600" href="https://github.com/xanmoy">Xanmoy</a>
+
+    <footer className="bg-gradient-to-b from-indigo-800 to-indigo-900 w-full h-fit shadow">
+      <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+        <div className="sm:flex sm:items-center sm:justify-center justify-center items-center text-center">
+          {/* <a href="/" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+            
+            <Image width="150" height="80" src="/logo.svg" alt="xeoly Logo" />
+
+            
+          </a> */}
           
-
-        </p>
+          <ul className="flex pt-5 flex-wrap text-center justify-center gap-5 lg:gap-24 items-center mb-6 text-sm font-medium text-gray-300 sm:mb-0">
+            <li>
+              <a href="#" className="hover:underline text-center me-4 md:me-6">About</a>
+            </li>
+            <li>
+              <a href="#" className="hover:underline me-4 md:me-6">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="#" className="hover:underline me-4 md:me-6">Licensing</a>
+            </li>
+            <li>
+              <a href="#" className="hover:underline">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <hr className="my-6 border-b border-zinc-500 sm:mx-auto lg:my-8" />
+        <span className="block text-sm justify-center text-gray-400 text-center ">© 2024 <a href="/" className="hover:underline">Ganguly Enterprises</a>. All Rights Reserved.</span>
       </div>
     </footer>
+
+
   );
 }

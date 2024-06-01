@@ -7,11 +7,12 @@ import Image from "next/image";
 
 export default function SearchHeader() {
   return (
-    <header className="bg-zinc-900 top-0">
-      <div className="container flex flex-wrap w-full p-1 items-center justify-between">
-        <div className="flex-grow lg:flex-grow-0 text-center lg:text-left">
-          <Link href={"/"} className="inline-block">
-            
+    <header className="w-full lg:bg-gradient-to-b from-indigo-800 to-zinc-900">
+      <div className="container flex flex-wrap w-full items-center justify-between">
+        <div className="flex-grow lg:flex-grow-0 w-max text-center lg:text-left">
+          {/* Conditional rendering of the gradient background */}
+          <div className="bg-gradient-to-b from-indigo-800 to-zinc-900 lg:bg-transparent md:bg-transparent">
+            <Link href={"/"} className="inline-block">
               <Image
                 width="150"
                 height="40"
@@ -19,14 +20,13 @@ export default function SearchHeader() {
                 alt="XEOLY Logo"
                 className="mx-auto lg:mx-0"
               />
-            
-          </Link>
+            </Link>
+          </div>
         </div>
 
         <div className="item my-2 flex-grow">
           <SearchBox />
         </div>
-
       </div>
       <SearchHeaderOptions />
     </header>
