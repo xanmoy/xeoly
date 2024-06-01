@@ -23,6 +23,8 @@ export default function Head() {
         href="/favicon-16x16.png"
       />
       <link rel="manifest" href="/site.webmanifest" />
+      <meta name="theme-color" content="#4f46e5" />
+      <meta name="robots" content="index,follow,archive" />
     </>
   );
 }
