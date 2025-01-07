@@ -21,7 +21,7 @@ export default function ImageSearchResults({ results }) {
                 </h2>
               </Link>
               <Link href={result.image.contextLink}>
-                <p className="group-hover:underline text-gray-600">
+                <p className="group-hover:underline text-gray-300">
                   {result.displayLink}
                 </p>
               </Link>

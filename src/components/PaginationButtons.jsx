@@ -19,7 +19,7 @@ export default function PaginationButtons() {
           <div className="flex flex-col cursor-pointer items-center hover:underline">
             {/* <BsChevronLeft className="h-5" />
             <p>Previous</p> */}
-            <button class="bg-indigo-300 hover:bg-indigo-400 text-indigo-800 font-bold py-2 px-4 rounded-l">
+            <button class="bg-indigo-500 hover:bg-indigo-700 text-indigo-950 font-bold py-2 px-4 rounded-l">
               Prev
             </button>
           </div>
@@ -32,7 +32,7 @@ export default function PaginationButtons() {
           <div className="flex flex-col cursor-pointer items-center hover:underline">
             {/* <BsChevronRight className="h-5" /> */}
             {/* <span>More Results</span> */}
-            <button class="bg-indigo-300 hover:bg-indigo-400 text-indigo-800 font-bold py-2 px-4 rounded-r">
+            <button class="bg-indigo-500 hover:bg-indigo-700 text-indigo-950 font-bold py-2 px-4 rounded-r">
               Next
             </button>
           </div>

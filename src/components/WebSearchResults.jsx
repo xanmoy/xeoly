@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function WebSearchResults({ results }) {
   return (
     <div className="w-full mx-auto px-3 pb-40 sm:pb-24 sm:pl-[5%] md:pl-[14%] lg:pl-52">
-      <p className="text-gray-300 text-sm mb-5 mt-3">
+      <p className="text-gray-200 text-sm mb-5 mt-3">
         About {results.searchInformation?.formattedTotalResults} results (
         {results.searchInformation?.formattedSearchTime} seconds)
       </p>
@@ -28,7 +28,7 @@ export default function WebSearchResults({ results }) {
               </Link>
             </div>
             <Link
-              className="group-hover:underline decoration-blue-700 text-xl truncate font-medium text-blue-800"
+              className="group-hover:underline decoration-blue-600 text-xl truncate font-medium text-blue-600"
               href={result.link}
             >
               {result.title}
