@@ -29,8 +29,8 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <hr className="my-6 border-b border-zinc-500 sm:mx-auto lg:my-8" />
-        <span className="block text-sm justify-center text-gray-400 text-center ">© 2024 <a href="/" className="hover:underline">Ganguly Enterprises</a>. All Rights Reserved.</span>
+        {/* <hr className="my-6 border-b border-zinc-500 sm:mx-auto lg:my-8" /> */}
+        <span className="block text-sm py-5 justify-center text-gray-400 text-center ">© 2025 <a href="/" className="hover:underline">Xeoly</a>. All Rights Reserved.</span>
       </div>
     </footer>
 

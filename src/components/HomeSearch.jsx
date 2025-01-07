@@ -50,7 +50,7 @@ export default function HomeSearch() {
         </button>
       </form>
 
-      <Link href="https://copilot.xanmoy.me" replace>
+      <Link href="https://sage.xanmoy.in" replace>
         <div className="flex items-center space-x-1 m-1 mt-6 rounded-full bg-zinc-800">
           <div className="rounded-full bg-zinc-800 p-2 h-18 w-18">
             <Image width="50" height="50" src="/copilot.svg" alt="AI Logo" />

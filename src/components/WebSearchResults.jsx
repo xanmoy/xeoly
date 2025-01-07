@@ -28,13 +28,13 @@ export default function WebSearchResults({ results }) {
               </Link>
             </div>
             <Link
-              className="group-hover:underline decoration-blue-800 text-xl truncate font-medium text-blue-800"
+              className="group-hover:underline decoration-blue-700 text-xl truncate font-medium text-blue-800"
               href={result.link}
             >
               {result.title}
             </Link>
           </div>
-          <p className="text-gray-400">{Parser(result.htmlSnippet || "")}</p>
+          <p className="text-gray-200">{Parser(result.htmlSnippet || "")}</p>
         </div>
       ))}
       <PaginationButtons />

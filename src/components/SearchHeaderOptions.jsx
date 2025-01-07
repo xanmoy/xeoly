@@ -13,7 +13,7 @@ export default function SearchHeaderOptions() {
     router.push(`/search/${tab === "Images" ? "image" : "web"}?searchTerm=${searchTerm}`);
   }
   return (
-    <div className="flex space-x-2 select-none border-b w-full justify-center lg:justify-start lg:pl-52 text-zinc-700 text-sm">
+    <div className="flex space-x-2 select-none  w-full justify-center lg:justify-start lg:pl-52 text-zinc-700 text-sm">
       <div onClick={()=>selectTab("All")} className={`flex items-center space-x-1 border-b-4 border-transparent active:text-indigo-500 cursor-pointer pb-3 px-2 ${pathname === "/search/web" && "!text-indigo-600 !border-indigo-600"}`}>
         <AiOutlineSearch className="text-md"/>
         <p>All</p>
@@ -24,7 +24,7 @@ export default function SearchHeaderOptions() {
       </div>
       
       <div className={`flex items-center space-x-1 border-b-4 border-transparent active:text-indigo-500 cursor-pointer pb-3 ${pathname === "/search/ai" && "!text-indigo-600 !border-indigo-600"}`}>
-        <Link href="https://copilot.xanmoy.me" replace>
+        <Link href="https://sage.xanmoy.in" replace>
           <div className="flex items-center space-x-1">
             <Image
               width="20"
@@ -33,7 +33,7 @@ export default function SearchHeaderOptions() {
               alt="AI Logo"
             />
             <span className="font-bold text-zinc-400">
-              COPILOT
+             Ask Sage
             </span>
           </div>
         </Link>

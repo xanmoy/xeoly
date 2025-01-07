@@ -20,17 +20,17 @@ export default function Home() {
         <div className="w-full px-4 py-10 sm:w-1/2 md:w-1/3 lg:w-1/4">
           <div className="bg-zinc-800 text-center p-6 rounded-lg shadow-lg">
             <h2 className="text-xl font-bold text-white mb-4">
-              Introducing New Xeloy Copilot
+              Introducing New Sage AI
             </h2>
             <p className="text-gray-400 mb-6">
               Enhance your productivity with the new Xeloy Copilot. Get
               assistance in your daily tasks effortlessly.
             </p>
             <a
-              href="https://copilot.xanmoy.me"
+              href="https://sage.xanmoy.in"
               className="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2.5 px-4 rounded-full transition duration-300 ease-in-out transform hover:scale-105"
             >
-              Ask Copilot
+              Ask Sage
             </a>
           </div>
         </div>
